@@ -149,6 +149,7 @@ class Water(pygame.sprite.Sprite):
                 player.rect.bottom = self.rect.top
 
 
+
 class Player(pygame.sprite.Sprite):
     def __init__(self, image, pos):
         pygame.sprite.Sprite.__init__(self)
